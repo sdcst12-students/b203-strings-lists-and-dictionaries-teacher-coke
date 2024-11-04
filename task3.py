@@ -24,9 +24,8 @@ sortMe = {
     20: 3
   }
 
-keys = []
-values = []
-
+keys = sorted(list(sortMe.keys()))
+values = sorted(list(sortMe.values()))
 
 
 assert keys == [1, 2, 4, 6, 9, 10, 11, 13, 14, 15, 17, 18, 20]
